@@ -17,7 +17,8 @@ The concurrent access offers three options:
     No restrictions are applied. The user can sign in from multiple devices and browsers. This is the default setting.
 
 -   **Warning**
--   The user can sign in from only one device or browser at a time. If other sessions exist, the user receives a message and will have the option to terminate the other session and sign out.
+    This warns the user so they sign in from only one device or browser at a time. If other sessions exist, the user receives a message and will have the option to         terminate the other session and sign out. (The other sessions will not terminate automatically if you choose to sign in and continue to the new session)
+   
 -   **Error**
 
     The user can sign in from only one device or browser at a time. When the user try to sign in from another device or browser, they see an error message.
